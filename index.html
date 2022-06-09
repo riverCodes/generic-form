@@ -22,7 +22,14 @@
           <label for="name">
             <span>Name:</span>
             <strong><abbr title="required">*</abbr></strong>
-            <input type="text" id="name" name="name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              pattern="[A-Za-z\s]+"
+              placeholder="no numbers allowed"
+            />
           </label>
           <label for="age">
             <span>Age:</span>
@@ -34,20 +41,28 @@
               min="18"
               max="99"
               required
+              placeholder="18-99"
             />
           </label>
           <label for="email">
             <span>E-Mail:</span>
             <strong><abbr title="required">*</abbr></strong>
-            <input type="email" id="email" name="email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="abc@xyz.com"
+            />
           </label>
           <label for="gender">
-            <span>Gender</span>
+            <span>Gender:</span>
             <strong><abbr title="required">*</abbr></strong>
             <select id="gender" name="gender">
+              <option value="none" selected disabled>Select an option</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
-              <option value="n/a">Prefer Not To Say</option>
+              <option value="undisclosed">Prefer Not To Say</option>
             </select>
           </label>
         </p>
