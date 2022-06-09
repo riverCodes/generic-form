@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Generic Form</title>
+  </head>
+  <body>
+    <form class="wrapper" id="generic-form">
+      <h1>Generic Form</h1>
+      <small>
+        <p>
+          Required fields are followed by
+          <strong><abbr title="required">*</abbr></strong>
+        </p>
+      </small>
+      <section>
+        <h2>Personal Information</h2>
+        <p>
+          <label for="name">
+            <span>Name:</span>
+            <strong><abbr title="required">*</abbr></strong>
+            <input type="text" id="name" name="name" required />
+          </label>
+          <label for="age">
+            <span>Age:</span>
+            <strong><abbr title="required">*</abbr></strong>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="18"
+              max="99"
+              required
+            />
+          </label>
+          <label for="email">
+            <span>E-Mail:</span>
+            <strong><abbr title="required">*</abbr></strong>
+            <input type="email" id="email" name="email" required />
+          </label>
+          <label for="gender">
+            <span>Gender</span>
+            <strong><abbr title="required">*</abbr></strong>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="n/a">Prefer Not To Say</option>
+            </select>
+          </label>
+        </p>
+      </section>
+      <section>
+        <h2>Preferences</h2>
+        <fieldset>
+          <legend>Which of these games do you play?</legend>
+          <small>Select atleast one</small>
+          <ul>
+            <li>
+              <label for="game1">
+                <input
+                  type="checkbox"
+                  id="game1"
+                  name="Games"
+                  value="Fortnite"
+                  required
+                />
+                <span>Fortnite</span>
+              </label>
+            </li>
+            <li>
+              <label for="game2">
+                <input
+                  type="checkbox"
+                  id="game2"
+                  name="Games"
+                  value="Overwatch"
+                  required
+                />
+                <span>Overwatch</span>
+              </label>
+            </li>
+            <li>
+              <label for="game3">
+                <input
+                  type="checkbox"
+                  id="game3"
+                  name="Games"
+                  value="Valorant"
+                  required
+                />
+                <span>Valorant</span>
+              </label>
+            </li>
+            <li>
+              <label for="game4">
+                <input
+                  type="checkbox"
+                  id="game4"
+                  name="Games"
+                  value="CS:GO"
+                  required
+                />
+                <span>CS:GO</span>
+              </label>
+            </li>
+            <li>
+              <label for="game5">
+                <input
+                  type="checkbox"
+                  id="game5"
+                  name="Games"
+                  value="Apex Legends"
+                  required
+                />
+                <span>Apex Legends</span>
+              </label>
+            </li>
+            <li>
+              <label for="game6">
+                <input
+                  type="checkbox"
+                  id="game6"
+                  name="Games"
+                  value="PUBG"
+                  required
+                />
+                <span>PUBG</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section>
+        <h1>Terms and Conditions</h1>
+        <hr />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          sapiente eligendi ducimus culpa at natus numquam debitis autem placeat
+          ipsam? Aliquid facere placeat eveniet, culpa nulla quas libero fuga
+          saepe mollitia cupiditate repellendus sint, nesciunt ipsam, veniam
+          deleniti maxime eos exercitationem consectetur unde animi a corrupti
+          praesentium in! Labore a quis molestiae similique sint, commodi ex non
+          fugit voluptatibus! Voluptate illum libero voluptas eaque harum? Optio
+          labore, deleniti iste repudiandae et est itaque! Voluptas accusamus
+          velit vitae quia, error adipisci doloribus nobis impedit fugit
+          veritatis consectetur ad, obcaecati voluptatum autem tempora illum,
+          quisquam rerum repellat laboriosam quod! Laudantium, officiis? Fuga
+          iusto accusantium, veniam veritatis facilis enim nemo quidem
+          repudiandae tenetur ab! Maxime dolorum ducimus aliquid illum dolor!
+          Quia labore at odio ratione, totam obcaecati aliquid quisquam eius
+          repudiandae facilis possimus exercitationem officia, dolorem sunt
+          saepe! Rerum possimus culpa sapiente ullam repudiandae. In
+          consequatur, nesciunt eius aliquid exercitationem eveniet itaque
+          dicta! Repellendus harum recusandae nisi voluptatum dolorem architecto
+          eius ad possimus ipsa ut odio itaque ducimus, iste est minima et
+          deleniti laboriosam reiciendis, nam rem eaque debitis ab temporibus
+          totam. Quidem, earum omnis. Unde rerum eligendi excepturi inventore
+          ipsa corporis, fugiat error magnam, reprehenderit deserunt consectetur
+          culpa iure molestias atque recusandae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+          perspiciatis distinctio sint sunt enim eius explicabo similique velit
+          a omnis facere. Officiis quisquam nisi placeat at reiciendis
+          voluptatibus quis reprehenderit molestiae laudantium ad saepe
+          necessitatibus cum deserunt sint, quibusdam officia atque provident!
+          Amet ut laboriosam doloribus perferendis eligendi. Non possimus
+          doloremque unde fugiat? Sunt ipsam, eius fuga quo repellendus eveniet
+          facere tenetur. Nemo vel rem voluptate ut hic culpa voluptates nihil,
+          necessitatibus adipisci tempore ducimus natus? Deleniti error porro
+          facere minima officia aspernatur, explicabo eveniet odio nobis nulla
+          qui labore totam autem quae dicta harum vero obcaecati nesciunt
+          laudantium ad.
+        </p>
+        <p>
+          Nisi obcaecati eveniet voluptate! Ex aperiam nostrum molestiae rerum?
+          Nostrum voluptates quisquam ab labore exercitationem maiores ullam
+          recusandae facilis quos commodi tempore soluta inventore molestias
+          expedita qui sunt, nam voluptate ut hic quia, alias iste. Laudantium
+          aliquid delectus autem ullam aliquam distinctio facere, voluptates
+          laborum numquam incidunt atque ut dicta nulla eveniet odit ipsam,
+          eligendi et, tempore culpa fuga necessitatibus non esse nobis qui!
+          Inventore esse magnam consectetur reprehenderit amet iusto dolore
+          itaque? Ipsum delectus ipsam expedita adipisci illo repellendus
+          similique facilis quibusdam, possimus nisi eius porro reiciendis
+          obcaecati ea id dolore officiis ab esse praesentium ducimus laudantium
+          eaque. Consequatur.
+        </p>
+        <hr />
+        <label for="terms">
+          <input type="checkbox" id="terms" name="T&C" value="Agree" required />
+          <span>I agree to the Terms & Conditions.</span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+      </section>
+    </form>
+    <button type="submit" form="generic-form">Submit</button>
+  </body>
+</html>
